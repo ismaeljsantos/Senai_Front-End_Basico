@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site - SESISENAI LAB365</title>
+</head>
+<body>
+    <header>
+        <section>
+            <a href="index.html"><img src="./logo.png" alt="COMPANY - you logo home" width="200px"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <Section>
+            <article>
+                <h1>Formulário de Contato</h1>
+                <p>Preencha os dados abaixo e envie sua mensagem!</p>
+
+                <fieldset>
+                    <legend>
+                        <h5>Dados de Contato</h5>
+                    </legend>
+                    <form id="frmInscricao" action="" method="POST">
+                        <label for="textNome">Nome:</label><br>
+                        <input size="50" type="text" required="required" id="txtNome" maxlength="100" name="nome" placeholder="digite seu nome aqui"><br><br>
+                        
+                        <label>Sexo:</label><br>
+                            <input type="radio" id="rdoSexoM" name="rdoSexo" value="M" required="required">
+                            <label for="rdoSexoM">Masculino</label>
+                            <input type="radio" id="rdoSexoF" name="rdoSexo" value="F" required="required">
+                            <label for="rdoSexoF">Feminino</label>
+                        <br><br>
+
+                        <label for="endereco">Logradouro:</label><br>
+                        <input type="text" id="endereco" placeholder="rua" size="50" maxlength="100"><br><br>
+                        
+                        <label for="cbxEstado">Estado</label><br>
+                        <select name="" id="cbxEstado" required="required">
+                            <option value="">selecione o estado</option>
+                            <option value="al">Al</option>
+                            <option value="sp">SP</option>
+                            <option value="se">SE</option>
+                        </select><br><br>
+
+                        <label for="cbxCidade">Cidade</label><br>
+                        <select name="" id="cbxCidade" required="required">
+                            <option value="">selecione o estado</option>
+                            <option value="1">Aracaju</option>
+                            <option value="2">Nossa Senhor do Socorro</option>
+                            <option value="3">São Cristovão</option>
+                        </select><br><br>
+
+                        <label for="celular">Celular:</label><br>
+                        <input type="tel" maxlength="15" name="celular" id="celular" placeholder="(79) 99999-9999" required="required"><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" placeholder="seuemail@site.com" required="required" size="50"><br><br>
+
+                        <label>Áreas de Interesse</label><br>
+                        <input type="checkbox" value="html" name="chkAreasInteresse" id="cbxHtml">
+                        <label for="cbxHtml">HTML</label>
+
+                        <input type="checkbox" value="css" name="chkAreasInteresse" id="cbxCss">
+                        <label for="cbxCss">CSS</label>
+
+                        <input type="checkbox" value="js" name="chkAreasInteresse" id="cbxJs">
+                        <label for="cbxJs">JAVASCRIPT</label><br><br>
+
+                        <label for="txtMensagem">Mensagem:</label><br>
+                        <textarea name="mensagem" id="txtMensagem" cols="50" rows="5"></textarea><br><br>
+
+                        <input type="submit" id="btnEnviar" value="Enviar">
+                    </form>
+                </fieldset>
+            </article>
+        </Section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#" target="_blank"><img src="./logo-insta.png" alt="logo-instagram" ></a></li>
+            <li><a href="#" target="_blank"><img src="./logo-facebook.png" alt="logo-facebook" ></a></li>
+            <li><a href="#" target="_blank"><img src="./logo-twitter.png" alt="logo-twitter" ></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
