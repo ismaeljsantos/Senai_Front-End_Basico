@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Início do header -->
+    <header>
+        <section class="conteudo linha">
+            <img src="./logo.png" alt="Logo da empresa XPTO" width="200px" />
+            <!-- Início do menu do site -->
+            <nav>
+                <ul>
+                    <li>
+                        <a class="botao " href="index.html">Início</a>
+                    </li>
+                    <li>
+                        <a class="botao botao-destaque" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Fim do menu do site -->
+        </section>
+    </header>
+    <!-- Fim do header -->
+
+    <!-- Início do main -->
+    <main>
+        <!-- Início da section do conteúdo do site -->
+        <section class="conteudo linha sobre">
+            <!-- Conteúdo de texto sobre o site -->
+            <article>
+                <h1>Contato</h1>
+                <h2>Landing Page</h2>
+                <p>
+                    Preencha os dados ao lado e envie sua mensagem de contato.
+                </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry. Lorem Ipsum has been the industry’s standard
+                    dummy text
+                    ever since the 1500s, when an unknown printer took a
+                    galley of type
+                    and.
+                </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry. Lorem Ipsum has been the industry’s standard
+                    dummy text
+                    ever since the 1500s, when an unknown printer took a
+                    galley of type
+                    and.
+                </p>
+            </article>
+            <!-- Fim do conteúdo de texto sobre o site -->
+            <!-- Conteúdo de texto sobre o site -->
+            <fieldset>
+                <legend>
+                    <h5 class="legenda">Dados de Contato</h5>
+                </legend>
+
+                <form id="frmInscricao" action="" method="POST">
+                    <div class="agrupamento">
+                        <label for="txtNome" class="rotulo">Nome:</label><br>
+                        <input type="text" class="entrada" required="required" id="txtNome" maxlength="100" size="50"><br><br>
+                    </div>
+                    <div class="agrupamento">
+                        <label for="txtNome" class="rotulo">Data de Nascimento:</label><br>
+                        <input type="date" class="entrada" required="required" id="txtDataNascimento"><br><br>
+                    </div>
+                    <div class="agrupamento">
+                        <label for="txtCelular" class="rotulo">Celular:</label><br>
+                        <input type="tel" class="entrada" required="required" id="txtCelular" size="50" placeholder="(##) #####-####"
+                            maxlength="15"><br><br>
+                    </div>
+                    <div class="agrupamento">
+                        <label for="txtEmail" class="rotulo">E-mail:</label><br>
+                        <input type="email" class="entrada" required="required" size="50" id="txtEmail"><br><br>
+                    </div>
+                    <div class="agrupamento">
+                        <label class="rotulo">Mensagem:</label><br><br>
+                        <textarea class="entrada mensagem" cols="50" rows="5" required="required"></textarea><br><br>
+                    </div>
+                    <div class="agrupamento-botao">
+                        <input class="botao botao-destaque" type="submit" value="Enviar" />
+                    </div>
+                </form>
+            </fieldset>
+            </article>
+            <!-- Fim do conteúdo de texto sobre o site -->
+        </section>
+        <!-- Fim da section do conteúdo do site -->
+    </main>
+    <!-- Fim do main -->
+
+    <!-- Início do footer -->
+    <footer>
+        <!-- Início das redes sociais -->
+        <ul class="conteudo linha">
+            <li>
+                <a href="#">
+                    <img src="./logo-insta.png" alt="Instagram" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./logo-twitter.png" alt="Twitter" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./logo-facebook.png" alt="Facebook" />
+                </a>
+            </li>
+        </ul>
+        <!-- Fim das redes sociais -->
+    </footer>
+    <!-- Fim do footer -->
